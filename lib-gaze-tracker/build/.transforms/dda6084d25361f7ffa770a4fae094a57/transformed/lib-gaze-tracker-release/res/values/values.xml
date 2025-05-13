@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="black10">#1A000000</color>
+    <color name="black20">#33000000</color>
+    <color name="black25">#40000000</color>
+    <color name="black30">#4D000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black5">#0D000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black75">#BF000000</color>
+    <color name="black80">#CC000000</color>
+    <color name="black90">#E6000000</color>
+    <color name="circleBg">#DFE7EB</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorPrimary">#94d2ef</color>
+    <color name="colorPrimaryDark">#3e68a0</color>
+    <color name="colorPrimaryDarkPressed">#0FEC40</color>
+    <color name="dark">#353535</color>
+    <color name="dialogxColorBlue">#2196F3</color>
+    <color name="dialogxIOSBkgDark">#E6202020</color>
+    <color name="dialogxIOSBkgLight">#CCF4F5F6</color>
+    <color name="dialogxIOSBlue">#007aff</color>
+    <color name="dialogxIOSBlueDark">#8AB4F8</color>
+    <color name="dialogxIOSDarkDialogBkgColor">#262727</color>
+    <color name="dialogxIOSNotificationBkgDark">#CC202020</color>
+    <color name="dialogxIOSNotificationBkgLight">#D9F3F3F3</color>
+    <color name="dialogxIOSSplitDark">#99777878</color>
+    <color name="dialogxIOSSplitLight">#2c000000</color>
+    <color name="dialogxIOSTipTextDark">#9AA8B9</color>
+    <color name="dialogxIOSTipTextLight">#8f8f8f</color>
+    <color name="dialogxIOSWaitBkgDark">#D1161616</color>
+    <color name="dialogxIOSWaitBkgLight">#CCF4F5F6</color>
+    <color name="dialogxMaterialDarkDialogBkgColor">#343434</color>
+    <color name="dialogxPopButtonBlueDark">#86B3D6</color>
+    <color name="dialogxWaitBkgDark">#232323</color>
+    <color name="dialogxWaitBkgLight">#F5F6F7</color>
+    <color name="empty">#00000000</color>
+    <color name="ios_black">#000</color>
+    <color name="ios_black10">#1A000000</color>
+    <color name="ios_black20">#33000000</color>
+    <color name="ios_black25">#40000000</color>
+    <color name="ios_black30">#4D000000</color>
+    <color name="ios_black40">#66000000</color>
+    <color name="ios_black5">#0D000000</color>
+    <color name="ios_black50">#80000000</color>
+    <color name="ios_black60">#99000000</color>
+    <color name="ios_black70">#B3000000</color>
+    <color name="ios_black75">#BF000000</color>
+    <color name="ios_black80">#CC000000</color>
+    <color name="ios_black90">#E6000000</color>
+    <color name="ios_colorAccent">#2196F3</color>
+    <color name="ios_dark">#353535</color>
+    <color name="ios_dialogxButtonIOSLightPress">#0f000000</color>
+    <color name="ios_dialogxColorBlue">#2196F3</color>
+    <color name="ios_empty">#00000000</color>
+    <color name="ios_white">#fff</color>
+    <color name="ios_white10">#1Affffff</color>
+    <color name="ios_white20">#33ffffff</color>
+    <color name="ios_white25">#40ffffff</color>
+    <color name="ios_white30">#4Dffffff</color>
+    <color name="ios_white40">#66ffffff</color>
+    <color name="ios_white5">#0Dffffff</color>
+    <color name="ios_white50">#80ffffff</color>
+    <color name="ios_white60">#99ffffff</color>
+    <color name="ios_white70">#B3ffffff</color>
+    <color name="ios_white75">#BFffffff</color>
+    <color name="ios_white80">#CCffffff</color>
+    <color name="ios_white90">#E6ffffff</color>
+    <color name="textColor">#494949</color>
+    <color name="themeColor">#3e68a0</color>
+    <color name="themeColorLight">#94d2ef</color>
+    <color name="viewBgWhite">#FFFFFFFF</color>
+    <color name="white">#fff</color>
+    <color name="white10">#1Affffff</color>
+    <color name="white20">#33ffffff</color>
+    <color name="white25">#40ffffff</color>
+    <color name="white30">#4Dffffff</color>
+    <color name="white40">#66ffffff</color>
+    <color name="white5">#0DFFFFFF</color>
+    <color name="white50">#80ffffff</color>
+    <color name="white60">#99ffffff</color>
+    <color name="white70">#B3ffffff</color>
+    <color name="white75">#BFffffff</color>
+    <color name="white80">#CCffffff</color>
+    <color name="white90">#E6ffffff</color>
+    <string name="app_name">LibGazeTracker</string>
+    <string name="cali_pre_tip_text">接下来，屏幕会出现圆球\n\n
+        请一直注视圆球中心的红点</string>
+    <string name="face_tip">拿起手机，眨眨眼</string>
+    <string name="next_step">下一步</string>
+    <style name="DialogXCompatThemeDark" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="DialogXCompatThemeLight" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="DialogXFloatingWindow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/DialogXNoAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/empty</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="DialogXFragmentTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="DialogXNoAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <declare-styleable name="DialogXBaseRelativeLayout">
+        <attr format="boolean" name="baseFocusable"/>
+        <attr format="boolean" name="autoSafeArea"/>
+        <attr format="boolean" name="interceptBack"/>
+    </declare-styleable>
+    <declare-styleable name="DialogXMaxLayout">
+        <attr format="dimension" name="maxLayoutWidthIOS"/>
+        <attr format="dimension" name="maxLayoutHeightIOS"/>
+        <attr format="dimension" name="minLayoutWidthIOS"/>
+        <attr format="dimension" name="minLayoutHeightIOS"/>
+        <attr format="boolean" name="lockWidth"/>
+        <attr format="boolean" name="interceptTouch"/>
+    </declare-styleable>
+    <declare-styleable name="FaceView">
+        
+        <attr format="string" name="tip_text"/>
+        
+        <attr format="color" name="tip_text_color"/>
+        
+        <attr format="dimension" name="tip_text_size"/>
+
+    </declare-styleable>
+    <declare-styleable name="MaxRelativeLayout">
+        <attr format="dimension" name="maxLayoutWidth"/>
+        <attr format="dimension" name="maxLayoutHeight"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressView">
+        <attr format="dimension" name="progressStrokeWidth"/>
+        <attr format="color" name="progressStrokeColor"/>
+    </declare-styleable>
+    <declare-styleable name="RealtimeBlurView">
+        <attr format="dimension" name="realtimeBlurRadius"/>
+        <attr format="float" name="realtimeDownsampleFactor"/>
+        <attr format="color" name="realtimeOverlayColor"/>
+        <attr format="dimension" name="realtimeRadius"/>
+        <attr format="boolean" name="dialogxDarkMode"/>
+        <attr format="boolean" name="dialogxOverlayColorNoAlpha"/>
+    </declare-styleable>
+</resources>

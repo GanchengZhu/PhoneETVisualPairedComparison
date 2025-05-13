@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.gaze.tracker" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:targetApi="31" >
+        <activity android:name="org.gaze.tracker.ui.CalibrationActivity" />
+        <activity android:name="org.gaze.tracker.ui.ExampleActivity" />
+    </application>
+
+</manifest>

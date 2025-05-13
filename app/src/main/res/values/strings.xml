@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VPC-TASK</string>
+    <string name="start_experiment">继续</string>
+    <string name="subject_id">ID</string>
+    <string name="subject_age">年龄</string>
+    <string name="group">组别：</string>
+    <string name="gender">性别：</string>
+    <string name="task">任务：</string>
+</resources>

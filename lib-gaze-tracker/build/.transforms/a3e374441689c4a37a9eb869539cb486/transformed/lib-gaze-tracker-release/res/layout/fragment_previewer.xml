@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <org.gaze.tracker.widget.AutoFitSurfaceView
+        android:id="@+id/previewer_auto_fit_surface_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <org.gaze.tracker.widget.FaceView
+        android:id="@+id/face_circle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tip_text="将人脸置于圆框内"
+        app:tip_text_color="@android:color/black"
+        app:tip_text_size="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_ac_button"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="@string/next_step"
+        android:layout_marginTop="128dp"
+        android:textAlignment="center"
+        android:background="@drawable/next_btn_selector"
+        android:layout_gravity="center" />
+
+</FrameLayout>
